@@ -65,7 +65,7 @@
 
 .theme-menu__list {
   display: flex;
-  gap: 10px;;
+  gap: 10px;
   flex-direction: column;
 }
 
@@ -127,15 +127,6 @@
   animation-timing-function: ease-in-out;
 }
 
-@keyframes active {
-  0% {
-    left: 4px;
-  }
-  100% {
-    left: 0px;
-  }
-}
-
 .main {
   display: flex;
   flex-direction: column;
@@ -159,7 +150,6 @@
 .main__card-box {
   position: relative;
   height: clamp(300px, 70vh, 700px);
-
 }
 .main__card-image {
   width: 100%;
@@ -170,38 +160,29 @@
   object-fit: cover;
 }
 .image-car {
-filter: contrast(35%);
-
+  filter: contrast(35%);
 }
 .image-dog {
   filter: sepia(15%);
-  
 }
 .image-happy {
   filter: saturate(190%);
-  
 }
 .image-house {
   filter: hue-rotate(0.5turn);
-  
 }
 .image-family {
   filter: blur(1px);
-  
 }
 .image-wood {
   filter: grayscale(80%);
-  
 }
 .image-brown-dog {
   filter: invert(100%);
-  
 }
 .image-motivation {
-  filter: contrast(75%) hue-rotate(0.5turn);;
-  
+  filter: contrast(75%) hue-rotate(0.5turn);
 }
-
 
 .main__card-watermark {
   font-family: var(--acent-font);
@@ -260,94 +241,6 @@ filter: contrast(35%);
   cursor: pointer;
 }
 
-.like-icon.is-liked .heart {
-  animation-name: heart;
-  animation-duration: 0.3s;
-  animation-delay: 0.1s;
-  animation-iteration-count: 1;
-  animation-direction: reverse;
-  animation-timing-function: ease-in;
-  transform-origin: center;
-}
-
-@keyframes heart {
-  0% {
-    transform: scale(1.2);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-.like-icon .core {
-  fill: var(--bg-color);
-  transition: fill 0.3s 0.03s;
-}
-
-.like-icon:hover .core {
-  fill: var(--fill);
-  transition: fill 0.3s;
-}
-.like-icon:active .core {
-  fill: var(--fill-accent);
-  transition: fill 0.3s;
-}
-
-.like-icon.is-liked .core {
-  fill: var(--fill-accent);
-  transition: fill 0.3s;
-}
-
-.like-icon .main-body {
-  fill: var(--bg-color);
-  transition: fill 0.3s;
-}
-
-.like-icon:hover .main-body {
-  fill: var(--fill);
-  transition: fill 0.3s 0.05s;
-}
-
-.like-icon:active .main-body {
-  fill: var(--fill-accent);
-  transition: fill 0.3s 0.05s;
-}
-.like-icon.is-liked .main-body {
-  fill: var(--fill-accent);
-  transition: fill 0.3s 0.05s;
-}
-
-.like-icon .contour {
-  fill: var(--fill);
-  transition: fill 0.1s;
-}
-
-.like-icon.is-liked .contour {
-  fill: var(--fill-accent);
-  transition: fill 0.3s 0.06s;
-}
-
-.sparks {
-  opacity: 0%;
-}
-
-.like-icon.is-liked .sparks {
-  animation-name: sparks;
-  animation-duration: 0.3s;
-  animation-delay: 0.3s;
-  animation-iteration-count: 1;
-  animation-direction: reverse;
-  animation-timing-function: ease-in;
-}
-
-@keyframes sparks {
-  0% {
-    opacity: 0%;
-  }
-  100% {
-    opacity: 100%;
-  }
-}
 
 .card__icon-button:focus-visible .like-icon {
   outline: 2px solid var(--color);
@@ -474,9 +367,7 @@ filter: contrast(35%);
 }
 
 .dialog-button:hover {
-cursor: pointer;
-
-
+  cursor: pointer;
 }
 .dialog-button::after {
   content: "";
@@ -494,7 +385,6 @@ cursor: pointer;
   transform: translateX(0);
 }
 
-
 dialog:has([open]) {
   display: block;
 }
@@ -507,7 +397,3 @@ dialog::backdrop {
   background-color: rgb(0 0 0 / 0.3);
   backdrop-filter: blur(3px);
 }
-
-
-
-
