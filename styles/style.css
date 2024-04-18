@@ -15,7 +15,7 @@
 */
 @supports (font-variation-settings: normal) {
 
-  body {
+  .page {
     font-family: var(--font);
   }
 }
