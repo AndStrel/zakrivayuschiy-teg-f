@@ -13,17 +13,10 @@
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 
 */
-@supports (font-variation-settings: normal) {
-
-  .page {
-    font-family: var(--font);
-  }
-}
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--font);
-  font-variation-settings: normal;
   background-color: var(--bg-color);
   color: var(--color);
   background-image: var(--bg-image);
@@ -149,7 +142,7 @@
   font-size: var(--font-size);
   line-height: 30px;
   margin: 0 10px;
-  font-weight: var(--font-weight-bold);
+  font-variation-settings: "wght" var(--font-weight-bold);
 }
 
 .main__card-box {
@@ -217,7 +210,7 @@
 .main__card-text {
   --font-size: 18px;
   font-size: var(--font-size);
-  font-weight: var(--font-weight-text);
+  font-variation-settings: "wght" var(--font-weight-text);
   line-height: 21px;
   margin: 26px 25px;
 }
