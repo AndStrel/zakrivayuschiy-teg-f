@@ -19,23 +19,23 @@
 
 <body class="page content">
   <header class="header">
-    <h1 class="header__logo">&lt;/HTML&gt;</h1>
-    <h2 class="header__title">закрывающий тег</h2>
+    <p class="header__logo"><a href="#">&lt;/HTML&gt;</a></p>
+    <h1 class="header__title">закрывающий тег</h1>
     <nav class="theme-menu header__theme-menu">
       <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
       <ul class="theme-menu__list">
         <li class="theme-menu__item">
-          <button type="button" data-theme="dark" class="theme-menu__button">
+          <button type="button" type="button" data-theme="dark" class="theme-menu__button">
             Темно
           </button>
         </li>
         <li class="theme-menu__item">
-          <button type="button" data-theme="auto" disabled class="theme-menu__button">
+          <button type="button" type="button" data-theme="auto" disabled class="theme-menu__button">
             Авто
           </button>
         </li>
         <li class="theme-menu__item">
-          <button type="button" data-theme="light" class="theme-menu__button">
+          <button type="button" type="button" data-theme="light" class="theme-menu__button">
             Светло
           </button>
         </li>
@@ -47,7 +47,7 @@
     <article class="main__card">
       <h3 class="main__card-title">Фритрек и нулевой спринт: Подготовка к работе</h3>
       <div class="main__card-box">
-        <img src="./images/image.jpg" alt="Белый фритрек на фоне ночного неба" class="main__card-image image-car"
+        <img src="./images/image.jpg" alt="Белый фритрек на фоне ночного неба" class="main__card-image filter-contrast"
           loading="lazy">
         <span class="main__card-watermark">&lt;start&gt;</span>
       </div>
@@ -56,7 +56,7 @@
       <p class="main__card-text">После долгих размышлений, преодолевая кучу сомнений, я все таки решился отправиться в
         увлекательное путешествие под названием "frontend"</p>
       <div class="buttons">
-        <button class="card__icon-button">
+        <button type="button" class="card__icon-button">
           <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none"
             xmlns="http://www.w3.org/2000/svg">
             <g class="heart">
@@ -77,7 +77,7 @@
               fill="var(--fiil-accent)" />
           </svg>
         </button>
-        <button class="button card__like-button"><span class="button__text">Like</span></button>
+        <button type="button" class="button card__like-button"><span class="button__text">Like</span></button>
       </div>
     </article>
     <article class="main__card">
@@ -85,7 +85,7 @@
       <div class="main__card-box">
         <img src="./images/photo_1.jpg"
           alt="Щенок сидит посередине тропинки в безлюдном летнем парке, теплым солнечным утром"
-          class="main__card-image image-dog" loading="lazy">
+          class="main__card-image .filter-sepia" loading="lazy">
         <span class="main__card-watermark">&lt;OMG&gt;</span>
       </div>
       <p class="main__card-text">На первых этапах мы работали со страхами и сомнениями, которые часто испытывают
@@ -94,7 +94,7 @@
         если я не справлюсь?</p>
       <p class="main__card-text">Разумеется в таком случае работает поговорка: "Глаза бояться - руки делают".</p>
       <div class="buttons">
-        <button class="card__icon-button">
+        <button type="button" class="card__icon-button">
           <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none"
             xmlns="http://www.w3.org/2000/svg">
             <g class="heart">
@@ -123,14 +123,14 @@
               fill="var(--fiil-accent)" />
           </svg>
         </button>
-        <button class="button card__like-button"><span class="button__text">Like</span></button>
+        <button type="button" class="button card__like-button"><span class="button__text">Like</span></button>
       </div>
     </article>
     <article class="main__card">
       <h3 class="main__card-title">1 спринт: А если не получится?</h3>
       <div class="main__card-box">
         <img src="./images/photo_2.jpg" alt="Собака радостно смотрит вдаль прищурив глаза, на фоне заснеженной поляны"
-          class="main__card-image image-happy" loading="lazy">
+          class="main__card-image filter-saturate" loading="lazy">
         <span class="main__card-watermark">&lt;satisfaction&gt;</span>
       </div>
       <p class="main__card-text">Первый проект — позади! Но это всё ещё самое начало пути. Радость могла быстро
@@ -139,7 +139,7 @@
         Это чувство посетило меня впервые при прохождении пробного спринта, когда получались первые успехи в
         "песочнице".</p>
       <div class="buttons">
-        <button class="card__icon-button">
+        <button type="button" class="card__icon-button">
           <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none"
             xmlns="http://www.w3.org/2000/svg">
             <g class="heart">
@@ -160,7 +160,7 @@
               fill="var(--fiil-accent)" />
           </svg>
         </button>
-        <button class="button card__like-button"><span class="button__text">Like</span></button>
+        <button type="button" class="button card__like-button"><span class="button__text">Like</span></button>
       </div>
     </article>
     <article class="main__card">
@@ -168,7 +168,7 @@
       <div class="main__card-box">
         <img src="./images/photo_3.jpg"
           alt="Высокое светлое здание стоящее посреди деревьев в зеркальном отражении водной глади пруда"
-          class="main__card-image image-house" loading="lazy">
+          class="main__card-image filter-hue-rotate" loading="lazy">
         <span class="main__card-watermark">&lt;perfect&gt;</span>
       </div>
       <p class="main__card-text">На этом этапе вы уже достаточно разбирались в основах вёрстки, чтобы понять, как много
@@ -177,7 +177,7 @@
       <p class="main__card-text">Ооо да, погоня была утомительной но интересной. А "идеал", убегая и оборачиваясь, кричал:
         "Perfect... PixelPerfect".</p>
       <div class="buttons">
-        <button class="card__icon-button">
+        <button type="button" class="card__icon-button">
           <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none"
             xmlns="http://www.w3.org/2000/svg">
             <g class="heart">
@@ -198,13 +198,13 @@
               fill="var(--fiil-accent)" />
           </svg>
         </button>
-        <button class="button card__like-button"><span class="button__text">Like</span></button>
+        <button type="button" class="button card__like-button"><span class="button__text">Like</span></button>
       </div>
     </article>
     <article class="main__card">
       <h3 class="main__card-title">2 спринт: О тех, кто рядом</h3>
       <div class="main__card-box">
-        <img src="./images/photo_4.jpg" alt="Пара счастливых мододожёнов на берегу моря" class="main__card-image image-family"
+        <img src="./images/photo_4.jpg" alt="Пара счастливых мододожёнов на берегу моря" class="main__card-image filter-blur"
           loading="lazy">
         <span class="main__card-watermark">&lt;family&gt;</span>
       </div>
@@ -215,7 +215,7 @@
       <p class="main__card-text">Во всех случаях когда у меня только возникали мысли негативного оттенка, моя любимая
         супруга была на страже хладнокровия и прогоняла их прочь</p>
       <div class="buttons">
-        <button class="card__icon-button">
+        <button type="button" class="card__icon-button">
           <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none"
             xmlns="http://www.w3.org/2000/svg">
             <g class="heart">
@@ -236,13 +236,13 @@
               fill="var(--fiil-accent)" />
           </svg>
         </button>
-        <button class="button card__like-button"><span class="button__text">Like</span></button>
+        <button type="button" class="button card__like-button"><span class="button__text">Like</span></button>
       </div>
     </article>
     <article class="main__card">
       <h3 class="main__card-title">3 спринт: Обходные стратегии</h3>
       <div class="main__card-box">
-        <img src="./images/photo_5.jpg" alt="Распускающиеся в дождливую погоду почки листьев" class="main__card-image image-wood"
+        <img src="./images/photo_5.jpg" alt="Распускающиеся в дождливую погоду почки листьев" class="main__card-image filter-grayscale"
           loading="lazy">
         <span class="main__card-watermark">&lt;refresh&gt;</span>
       </div>
@@ -251,7 +251,7 @@
       <p class="main__card-text">В таких ситуациях помогало "обновление" взгляда на проект, которое невозможно без
         смещения фокуса внимания на другие вещи в жизни.</p>
       <div class="buttons">
-        <button class="card__icon-button">
+        <button type="button" class="card__icon-button">
           <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none"
             xmlns="http://www.w3.org/2000/svg">
             <g class="heart">
@@ -272,13 +272,13 @@
               fill="var(--fiil-accent)" />
           </svg>
         </button>
-        <button class="button card__like-button"><span class="button__text">Like</span></button>
+        <button type="button" class="button card__like-button"><span class="button__text">Like</span></button>
       </div>
     </article>
     <article class="main__card">
       <h3 class="main__card-title">3 спринт: Когда опускаются руки</h3>
       <div class="main__card-box">
-        <img src="./images/photo_6.jpg" alt="Белый фритрек на фоне ночного неба" class="main__card-image image-brown-dog"
+        <img src="./images/photo_6.jpg" alt="Белый фритрек на фоне ночного неба" class="main__card-image filter-invert"
           loading="lazy">
         <span class="main__card-watermark">&lt;what?&gt;</span>
       </div>
@@ -288,7 +288,7 @@
       <p class="main__card-text">Ключевой элемент концетрации - это возможность изолироваться от внешних радражителей
         (наушники, другая комната, лес, марс).</p>
       <div class="buttons">
-        <button class="card__icon-button">
+        <button type="button" class="card__icon-button">
           <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none"
             xmlns="http://www.w3.org/2000/svg">
             <g class="heart">
@@ -309,14 +309,14 @@
               fill="var(--fiil-accent)" />
           </svg>
         </button>
-        <button class="button card__like-button"><span class="button__text">Like</span></button>
+        <button type="button" class="button card__like-button"><span class="button__text">Like</span></button>
       </div>
     </article>
     <article class="main__card">
       <h3 class="main__card-title">«Сейчас я здесь»</h3>
       <div class="main__card-box">
         <img src="./images/photo_7.jpg" alt="Задумчивая собака на фоне восходящего осеннего солнца"
-          class="main__card-image image-motivation" loading="lazy">
+          class="main__card-image filter-mix" loading="lazy">
         <span class="main__card-watermark">&lt;where&gt;</span>
       </div>
       <p class="main__card-text">Сейчас вы уже очень много знаете о вёрстке. Но это только начало. Во-первых, впереди
@@ -326,7 +326,7 @@
       <p class="main__card-text">Сейчас вторая половина апреля, 4 спринт... и на самом деле я понимаю,что очень мало
         знаю. Желание  есть, мотивация  есть, цели  есть, двигаемя дальше!</p>
       <div class="buttons">
-        <button class="card__icon-button">
+        <button type="button" class="card__icon-button">
           <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none"
             xmlns="http://www.w3.org/2000/svg">
             <g class="heart">
@@ -347,26 +347,27 @@
               fill="var(--fiil-accent)" />
           </svg>
         </button>
-        <button class="button card__like-button"><span class="button__text">Like</span></button>
+        <button type="button" class="button card__like-button"><span class="button__text">Like</span></button>
       </div>
     </article>
-  </main>
-
-  <footer class="footer">
-    <button class="button footer__button" type="button" onclick="window['dialog-id'].showModal();"
+    <button type="button" class="button footer__button" type="button" onclick="window['dialog-id'].showModal();"
       aria-controls="dialog-id">
       <svg width="21" height="21">
         <use href="./svg/floppy2.svg#floppy" class="floppy"></use>
       </svg>
-      <span class="button__text">Сохранить на память</span>
+      <span class="button__text">Сохранить на&nbsp;память</span>
     </button>
+  </main>
+
+  <footer class="footer">
+    
   </footer>
   <dialog class="dialog" id="dialog-id">
     <div class="dialog__content" >
       <svg width="39" height="39" class="dialog__content-image">
         <use href="./svg/floppy2.svg#floppy" class="floppy"></use>
       </svg>
-      <h2 class="dialog__content-text">Вставьте <br> дискету, чтобы продолжить</h2>
+      <h2 class="dialog__content-text">Вставьте дискету, чтобы продолжить</h2>
     </div>
     <form method="dialog">
       <button class="button dialog-button"><span

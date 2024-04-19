@@ -11,8 +11,8 @@
   --shadow-color: rgba(255, 255, 255, 1);
   --fill: rgba(0, 0, 0, 1);
   --fiil-accent: rgba(255, 0, 0, 1);
-  --bg-image: repeating-linear-gradient(to right, #d3d3d3, transparent 2px),
-    repeating-linear-gradient(to bottom, #d3d3d3, transparent 2px),
+  --bg-image: repeating-linear-gradient(to right, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
+  repeating-linear-gradient(to bottom, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
     linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
   --font-weight-normal: 400;
   --font-weight-text: 400;
@@ -26,8 +26,8 @@
   --shadow-color: rgba(0, 0, 0, 1);
   --fill: rgba(0, 204, 20, 1);
   --fiil-accent: rgba(0, 204, 20, 1);
-  --bg-image: repeating-linear-gradient(to right, #000, transparent 2px),
-    repeating-linear-gradient(to bottom, #000, transparent 2px),
+  --bg-image: repeating-linear-gradient(to right, #000, #000 2px, transparent 2px, transparent 4px),
+  repeating-linear-gradient(to bottom, #000, #000 2px, transparent 2px, transparent 4px),
     linear-gradient(to bottom, #007f0c, #004306);
   --font-weight-normal: 400;
   --font-weight-text: 465;
@@ -42,8 +42,8 @@
     --button-color: rgba(255, 255, 255, 1);
     --fill: rgba(0, 0, 0, 1);
     --fiil-accent: rgba(255, 0, 0, 1);
-    --bg-image: repeating-linear-gradient(to right, #d3d3d3, transparent 2px),
-      repeating-linear-gradient(to bottom, #d3d3d3, transparent 2px),
+    --bg-image: repeating-linear-gradient(to right, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
+    repeating-linear-gradient(to bottom, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
       linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
     --font-weight-normal: 400;
     --font-weight-text: 400;
@@ -59,8 +59,8 @@
     --button-color: rgba(0, 204, 20, 1);
     --fill: rgba(0, 204, 20, 1);
     --fiil-accent: rgba(0, 204, 20, 1);
-    --bg-image: repeating-linear-gradient(to right, #000, transparent 2px),
-      repeating-linear-gradient(to bottom, #000, transparent 2px),
+    --bg-image: repeating-linear-gradient(to right, #000, #000 2px, transparent 2px, transparent 4px),
+      repeating-linear-gradient(to bottom, #000, #000 2px, transparent 2px, transparent 4px),
       linear-gradient(to bottom, #007f0c, #004306);
     --font-weight-normal: 400;
     --font-weight-text: 465;
